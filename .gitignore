@@ -266,3 +266,40 @@ ENV/
 # OS generated files
 .DS_Store
 Thumbs.db
+# Directories
+dataset/
+SiamMask/
+SiamMask-master/
+
+# Custom training and integration scripts (if you don't want them tracked)
+Carla_yolo_integration.py
+Left_Training.py
+Right_Training.py
+dataset/
+*.yaml
+*.txt
+# Remaining custom scripts
+Convert_right_semantic_to_yolo.py
+Object_detection_and_semantic_segmentation.py
+download_siammask.py
+download_siammask_weights.py
+download_siammask_weights_gdown.py
+find_yolo_labels.py
+left.py
+left_semantic_tracking.py
+move_all_semantic_images.py
+move_yolo_labels_to_train.py
+new1.py
+r.yaml.py
+right.py
+right_semantic_camera.py
+siammask_download.py
+split_train_val.py
+task.py
+test_siammask_launcher.py
+three.py
+train_left_yolo_ft.py
+try.py
+yolo_siammask.py
+yolo_siammask_velocity.py
+yolo_siammask_velocity_tracking.py
