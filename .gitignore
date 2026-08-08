@@ -256,3 +256,19 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE specific files (VS Code)
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
