@@ -1,0 +1,5 @@
+train: C:/carla/CARLA0.9.15/Right Semantic/yolo_dataset/images/train
+val: C:/carla/CARLA0.9.15/Right Semantic/yolo_dataset/images/val
+
+nc: 3
+names: ['car', 'truck', 'motorcycle']

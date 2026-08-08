@@ -1,0 +1,6 @@
+path: C:/carla/CARLA0.9.15/yolov5/dataset
+train: images
+val: images  # You can use a separate val folder if available
+
+nc: 3
+names: ['car', 'truck', 'motorcycle']
